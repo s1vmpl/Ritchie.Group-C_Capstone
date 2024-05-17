@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TCG</string>
+    <string name="timerInput">Type here</string>
+    <string name="timerButton1">Reset Timer</string>
+    <string name="timerButton2">Confirm</string>
+    <string name="timerButton3">Back</string>
+
+    <string name="leave_empty_to_use_the_default_values">*Leave empty to use the default values</string>
+
+    <string name="healthInput">Type here</string>
+    <string name="healthButton1">Reset Health</string>
+    <string name="healthButton2">Confirm</string>
+    <string name="healthButton3">Back</string>
+    <string name="custom_timer_length_in_minutes">Custom timer length in minutes</string>
+    <string name="todo">TODO</string>
+
+    <string name="gameLogButton">Back</string>
+    <string name="ira">Ira</string>
+    <string name="_15">15</string>
+    <string name="_10">10</string>
+    <string name="_20">20</string>
+    <string name="jay">Jay</string>
+    <string name="_17">17</string>
+    <string name="_3">3</string>
+    <string name="_1">1</string>
+    <string name="_0">0</string>
+    <string name="_7">7</string>
+    <string name="_4">4</string>
+</resources>
