@@ -66,68 +66,29 @@
 
     <TextClock
         android:id="@+id/textClock"
-        android:layout_width="160dp"
+        android:layout_width="158dp"
         android:layout_height="67dp"
         android:fontFamily="@font/aldrich"
         android:text="30:00"
         android:textColor="#FFFFFF"
-        android:textSize="50sp"
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/menu"
-        android:layout_width="62dp"
-        android:layout_height="46dp"
-        android:src="@tools:sample/avatars"
+    <Button
+        android:id="@+id/clockButt"
+        android:layout_width="149dp"
+        android:layout_height="53dp"
+        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintHorizontal_bias="0.524"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
-        tools:srcCompat="@drawable/menu" />
-
-    <ImageView
-        android:id="@+id/dice"
-        android:layout_width="45dp"
-        android:layout_height="40dp"
-        android:src="@tools:sample/avatars"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.968"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
-        tools:srcCompat="@drawable/restart_logo" />
-
-    <ImageView
-        android:id="@+id/restart"
-        android:layout_width="39dp"
-        android:layout_height="40dp"
-        android:src="@tools:sample/avatars"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.205"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
-        tools:srcCompat="@drawable/log" />
-
-    <ImageView
-        android:id="@+id/log"
-        android:layout_width="51dp"
-        android:layout_height="46dp"
-        android:src="@tools:sample/avatars"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.055"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499"
-        tools:srcCompat="@drawable/dice_logo" />
+        tools:visibility="invisible" />
 
     <Button
         android:id="@+id/button"
@@ -192,5 +153,106 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.197"
         tools:text="+" />
+
+    <Button
+        android:id="@+id/logsButt"
+        android:layout_width="56dp"
+        android:layout_height="45dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/logs"
+        android:layout_width="57dp"
+        android:layout_height="46dp"
+        android:src="@tools:sample/avatars"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/log" />
+
+    <ImageView
+        android:id="@+id/dice"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@tools:sample/avatars"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501"
+        app:srcCompat="@drawable/dice_logo" />
+
+    <Button
+        android:id="@+id/diceButt"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/restart"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        android:src="@tools:sample/avatars"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497"
+        app:srcCompat="@drawable/restart_logo" />
+
+    <Button
+        android:id="@+id/restartButt"
+        android:layout_width="46dp"
+        android:layout_height="45dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.495"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="59dp"
+        android:layout_height="56dp"
+        android:src="@tools:sample/avatars"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu" />
+
+    <Button
+        android:id="@+id/menuButt"
+        android:layout_width="54dp"
+        android:layout_height="52dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="invisible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
